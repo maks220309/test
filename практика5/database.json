@@ -1,0 +1,14 @@
+{
+  "BLOCKS": [
+    {
+      "width": "100px",
+      "height": "50px",
+      "background": "red",
+      "top": "173px",
+      "left": "495px",
+      "border": "2px solid black",
+      "borderradius": "5px",
+      "id": 1
+    }
+  ]
+}

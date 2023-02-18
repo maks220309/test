@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(53, 177, 148);
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.settings{
+    width: 400px;
+    height: 600px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.width{
+    margin-top: 30px;
+}
+.inputs{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+input{
+    width: 305px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(53, 177, 148);
+    transition: 0.5s;
+    border-color: black;
+    text-align: center;
+}
+input:focus{
+    background: black;
+    color: white;
+}
+.buttons{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(53, 177, 148);
+    transition: 0.5s;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+.container {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.block {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border: 5px solid black;
+}
+span{
+    color: white;
+}
